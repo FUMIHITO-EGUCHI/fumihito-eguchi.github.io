@@ -1,47 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OTYATYA — Portfolio</title>
-<meta name="description" content="OTYATYA — Software developer building Claude Skills, Chrome extensions, and automation tools.">
-<link rel="stylesheet" href="style.css">
+<title>OTYATYA — ポートフォリオ</title>
+<meta name="description" content="OTYATYA — ソフトウェア開発、Claude Skills、Chrome拡張、業務自動化ツールの制作。">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class="container">
 
 <nav class="lang-switch">
-  EN | <a href="/ja/" hreflang="ja">日本語</a>
+  <a href="/" hreflang="en">English</a> | 日本語
 </nav>
 
 <header class="site-header">
   <h1>OTYATYA</h1>
-  <p class="tagline">Software developer building automation tools, Claude Skills, and browser extensions.</p>
+  <p class="tagline">ソフトウェア開発者 / 自動化ツール制作</p>
 </header>
 
 <section class="about" id="about">
-  <h2>About</h2>
+  <h2>概要</h2>
   <p>
-    Solo developer based in Japan. I build small things — Claude Skills,
-    Chrome extensions, automation scripts, and game mods — mostly to scratch
-    my own itches. Stack varies per task; recently Python, TypeScript, shell,
-    C#, Lua, HTML+CSS. Coding is done with Claude Code and Codex side by side.
+    個人開発者。Claude Code 用のスキル、Chrome 拡張、業務自動化スクリプト、
+    ゲーム MOD などを作っている。基本的には自分が普段使いしていて
+    「毎回これ面倒だな」と思った部分を、自分のために潰すための小さいツールが多い。
   </p>
   <p>
-    I also take on contract work occasionally — async-first, JST (UTC+9).
-    Feel free to reach me via email below.
+    技術はタスクに合わせて選ぶ。最近触っているのは
+    Python / TypeScript / シェル / C# / Lua / HTML+CSS あたり。
+    コードは Claude Code と Codex を併用して書いている。
+  </p>
+  <p>
+    受託開発もときどき引き受けています。async-first、JST 基準。下記の Email まで気軽にどうぞ。
   </p>
 </section>
 
 <section class="projects" id="projects">
-  <h2>Projects</h2>
+  <h2>プロジェクト</h2>
   <div class="projects-grid">
 
     <article class="project-card">
-      <h3>Claude Skills collection</h3>
+      <h3>Claude Skills 群</h3>
       <p>
-        A growing collection of Claude Skills that automate everyday manual work —
-        like Mercari price research paired with auto-filled listing forms.
+        Claude Code / Claude デスクトップ向けの自作スキル群。メルカリの相場調査と
+        出品フォーム自動入力など、日常の手作業を自動化するスキルを継続開発中。
       </p>
       <p class="project-meta">
         <span class="tag">Claude Skills</span>
@@ -57,9 +60,10 @@
         </a>
       </h3>
       <p>
-        A Chrome extension that saves X (formerly Twitter) posts to your own machine,
-        so your likes and bookmarks stay easy to dig back up when you need them.
-        Currently preparing for Chrome Web Store submission.
+        X（旧Twitter）の投稿をローカルに保存するChrome拡張。
+        自分のいいねやブックマークが後から探しづらい問題を、
+        手元で気軽に検索できる形にして補うのが狙い。
+        現在 Chrome ウェブストア（CWS）登録に向けて準備中。
       </p>
       <p class="project-meta">
         <span class="tag">Chrome Extension</span>
@@ -69,11 +73,11 @@
     </article>
 
     <article class="project-card">
-      <h3>Workshop MOD Japanese Translation Pack [B41]</h3>
+      <h3>Workshop MOD 日本語化パック [B41]</h3>
       <p>
-        A Japanese localization pack covering multiple Workshop mods for Project Zomboid
-        (Build 41). Combines translation files with per-mod Lua patches that also localize
-        menu labels and tooltips. In development, private repository.
+        Project Zomboid Build 41 向けの、複数 Workshop MOD をまとめて日本語化する MOD。
+        翻訳テキストに加え、対象 MOD ごとの Lua パッチでメニュー名やツールチップも
+        日本語化する。現在開発中（非公開リポ）。
       </p>
       <p class="project-meta">
         <span class="tag">Game MOD</span>
@@ -89,10 +93,9 @@
         </a>
       </h3>
       <p>
-        A mod for Slay the Spire 2 that improves the in-game map drawing tools —
-        adjustable eraser width, pencil thickness and color, and undo. Loaded through
-        the official mod manager with Harmony runtime patching, multiplayer-aware.
-        Currently in development.
+        Slay the Spire 2 のマップ落書き機能を拡張する MOD。消しゴム幅・鉛筆の太さ・色・
+        Undo を調整できるようにする。Harmony で実行時パッチを当て、公式 MOD ローダー
+        経由でロード。マルチプレイにも対応。現在開発中。
       </p>
       <p class="project-meta">
         <span class="tag">Game MOD</span>
@@ -107,7 +110,7 @@
 </section>
 
 <section class="links" id="links">
-  <h2>Links</h2>
+  <h2>リンク</h2>
   <ul class="links-list">
     <li>
       <span class="label">GitHub</span>
@@ -122,15 +125,15 @@
       <a href="https://ko-fi.com/otyatya" target="_blank" rel="noopener">ko-fi.com/otyatya</a>
     </li>
     <li>
-      <span class="label">Legal</span>
-      <a href="legal/tokushoho.html">Specified Commercial Transactions Act</a>
+      <span class="label">特商法</span>
+      <a href="../legal/tokushoho.html">特定商取引法に基づく表記</a>
     </li>
   </ul>
 </section>
 
 <footer class="site-footer">
   <span>&copy; OTYATYA</span>
-  <span>Built with plain HTML &amp; CSS &middot; Hosted on GitHub Pages</span>
+  <span>Plain HTML &amp; CSS · GitHub Pages でホスト</span>
 </footer>
 
 </div>
