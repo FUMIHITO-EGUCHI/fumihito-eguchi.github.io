@@ -43,6 +43,12 @@ a:hover { text-decoration: underline; }
   margin-top: 2px;
 }
 
+.lang-switch {
+  font-size: 13px;
+  color: var(--subtle);
+  margin-bottom: 16px;
+}
+
 /* ===== index.html ===== */
 
 .site-header {
